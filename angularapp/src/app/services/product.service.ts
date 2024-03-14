@@ -20,6 +20,14 @@ export class ProductService {
     return this.httpClient.post(`${this.baseUrl}`, product).pipe();
   }
 
+  // public updateProduct(id: number, product: Product): Observable<any> {
+  //   return this.httpClient.put(`${this.baseUrl}/${id}`, product).pipe();
+  // }
+
+  // public deleteProduct(id: number): Observable<any> {
+  //   return this.httpClient.delete(`${this.baseUrl}/${id}`).pipe();
+  // }
+
   public getProductById(id: number) {
     return this.httpClient.get(`${this.baseUrl}/${id}`).pipe();
   }

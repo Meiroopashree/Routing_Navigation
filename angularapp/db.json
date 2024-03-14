@@ -34,6 +34,13 @@
       "category": "Smartphone",
       "price": 299,
       "description": "Budget-friendly smartphone with a large battery."
+    },
+    {
+      "name": "demo",
+      "category": "120",
+      "price": 1200,
+      "description": "demo",
+      "id": 6
     }
   ]
 }
